@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
 
@@ -33,9 +35,10 @@
                     </a>
 
                     <!-- Toggle button for mobile -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    <button class="navbar-toggler collapsed custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <i class="fas fa-bars hamburger-icon"></i> 
+                        <i class="fas fa-times close-icon"></i>
                     </button>
 
                     <!-- Collapsible Content -->
@@ -159,11 +162,6 @@
         <p class="fade-in-up categorie_para">Lorem ipsum dolor sit amet consectetur. At massa iaculis adipiscing auctor. Nisl at
             metus nunc lacinia tortor. Duis vel lacus sed consequat a ornare quis duis. Pellentesque condimentum diam
             nunc enim suspendisse sit. Venenatis pulvinar in aliquet </p>
-        <div class="main-cricle">
-            <div class="centeral-cricle">
-                Choose your Category
-            </div>
-        </div>
         <div class="d-flex justify-content-center align-items-center">
             <div class="position-relative imge_scroll">
 
@@ -182,7 +180,7 @@
 
                             <img class="box_img1 gift_width" src="img/gift.png" alt="Books">
                             <div class="box1">
-                                <p>Books</p>
+                                <p>Gift Hub</p>
                             </div>
 
                         </div>
@@ -204,7 +202,7 @@
                         <div class="circle-content">
                             <img class="box_img1" src="img/camra.png" alt="Electronics">
                             <div class="box1">
-                                <p>Electronics</p>
+                                <p>Photogrpher & Graphic Designer</p>
                             </div>
                         </div>
                     </div>
@@ -215,7 +213,7 @@
 
                             <img class="box_img1" src="img/sport.png" alt="Gifts Hub">
                             <div class="box1">
-                                <p>Gifts Hub</p>
+                                <p>Others</p>
                             </div>
 
                         </div>
@@ -266,7 +264,7 @@
                         accumsan risus lacus ipsum urna. In consequat dictum enim varius ornare gravida dolor cursus
                         consectetur. Vulputate egestas.</p>
                     <p>Also reach us at:</p>
-                    <p> <img src="img/mail.svg" alt=""><a href="mailto:info@badalah.com" class="text-danger me-3"><i
+                    <p> <img class="me-2" src="img/mail.svg" alt=""><a href="mailto:info@badalah.com" class="email-text me-3"><i
                                 class="bi bi-envelope-fill"></i> info@badalah.com</a></p>
                 </div>
 
@@ -301,9 +299,9 @@
     </section>
     <div class="container footer my-5">
         <div class="row">
-            <div class="col-lg-3 col-md-12 col-sm-12 col-12 mb-4">
-                <img src="img/logo.svg" alt="">
-                <p class="py-3 lorem">Lorem ipsum dolor sit amet consectetur. Elit ullamcorper ullamcorper lectus leo
+            <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
+                <img class="mb-3" src="img/logo.svg" alt="">
+                <p class="py-3 mb-3 lorem">Lorem ipsum dolor sit amet consectetur. Elit ullamcorper ullamcorper lectus leo
                     diam netus. Amet velit condimentum leo sed </p>
                 <img src="img/fb.svg" alt="">
                 <img src="img/instagram.svg" alt="">
@@ -333,7 +331,7 @@
                 <a href="">Festival deals</a>
                 <a href="">Big brands deals</a>
             </div>
-            <div class="col-lg-3 col-md-12 col-sm-12 col-12 last_icon">
+            <div class="col-lg-2 col-md-12 col-sm-12 col-12 last_icon">
                 <h5>Contact with us</h5>
                 <a href=""><img class="ml-3" src="img/mail.svg" alt="">info@badalah.com</a>
                 <a href=""><img class="ml-3" src="img/home.svg" alt="">Dubai, AE</a>
