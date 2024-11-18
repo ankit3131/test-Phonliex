@@ -1267,3 +1267,7 @@ display: none;
 .custom-toggler:focus{
   box-shadow:unset;
 }
+
+.textError{
+  color:var(--primary-color);
+}
