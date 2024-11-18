@@ -270,26 +270,26 @@
 
                 <!-- Right Column for Form -->
                 <div class="col-lg-6">
-                    <form class="main-forms py-4" id="contactForm" onsubmit="return validateForm()">
+                    <form class="main-forms py-4" id="contactForm">
                         <div class="mb-3">
 
                             <input type="text" class="form-control" id="name" placeholder="Your Full name">
-                            <small class="text-danger" id="nameError"></small>
+                            <small class="textError" id="textError"></small>
                         </div>
                         <div class="mb-3">
 
                             <input type="email" class="form-control" id="email" placeholder="Your email address">
-                            <small class="text-danger" id="emailError"></small>
+                            <small class="textError" id="emailError"></small>
                         </div>
                         <div class="mb-3">
 
-                            <input type="tel" class="form-control" id="phone" placeholder="Your phone number">
-                            <small class="text-danger" id="phoneError"></small>
+                            <input type="text" class="form-control" id="emails" placeholder="Your phone number">
+                            <small class="textError" id="phoneError"></small>
                         </div>
                         <div class="mb-3">
 
-                            <textarea class="form-control" id="message" rows="4" placeholder="Your query"></textarea>
-                            <small class="text-danger" id="messageError"></small>
+                            <textarea class="form-control submit" id="message" rows="4" placeholder="Your query"></textarea>
+                            <small class="textError" id="messageError"></small>
                         </div>
                         <button type="submit" class="btn_card btn_card1 btn w-25">Submit</button>
                     </form>
